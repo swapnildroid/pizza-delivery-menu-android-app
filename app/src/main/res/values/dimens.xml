@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="largeTextSize">22sp</dimen>
+    <dimen name="mediumTextSize">18sp</dimen>
+    <dimen name="smallTextSize">14sp</dimen>
+
+    <dimen name="categoryTextSize">22sp</dimen>
+    <dimen name="titleTextSize">20sp</dimen>
+    <dimen name="subTitleTextSize">18sp</dimen>
+    <dimen name="offerTextSize">16sp</dimen>
+    <dimen name="priceTextSize">14sp</dimen>
+    <dimen name="viewAllTextSize">14sp</dimen>
+    <dimen name="addToCartTextSize">14sp</dimen>
+
+    <dimen name="offer_discount_category_text_size">@dimen/largeTextSize</dimen>
+    <dimen name="offer_discount_title_text_size">@dimen/mediumTextSize</dimen>
+    <dimen name="offer_discount_amount_text_size">@dimen/smallTextSize</dimen>
+
+    <dimen name="menu_category_text_size">@dimen/largeTextSize</dimen>
+    <dimen name="menu_title_text_size">@dimen/mediumTextSize</dimen>
+    <dimen name="menu_amount_text_size">@dimen/smallTextSize</dimen>
+
+    <dimen name="recommended_category_text_size">@dimen/largeTextSize</dimen>
+    <dimen name="recommended_title_text_size">@dimen/mediumTextSize</dimen>
+    <dimen name="recommended_amount_text_size">@dimen/smallTextSize</dimen>
+
+    <dimen name="view_all_text_size">@dimen/smallTextSize</dimen>
+    <dimen name="rating_text_size">@dimen/smallTextSize</dimen>
+    <dimen name="price_text_size">@dimen/smallTextSize</dimen>
+    <dimen name="customize_text_size">@dimen/smallTextSize</dimen>
+    <dimen name="add_to_cart_text_size">@dimen/smallTextSize</dimen>
+
+</resources>

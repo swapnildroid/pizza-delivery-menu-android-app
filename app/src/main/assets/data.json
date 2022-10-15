@@ -1,0 +1,100 @@
+{
+  "header": {
+    "title": "Delivery",
+    "address": "Suite 220, 1235 Westlake",
+    "profilePictureUrl": "???"
+  },
+  "categoryList": [
+    {
+      "title": "Recommended",
+      "productList": [
+        {
+          "title": "Pizza 1",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza1.jpg",
+          "rating": 4.0,
+          "priceList": [
+            10.0,
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "title": "Pizza 2",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza2.jpg",
+          "rating": 4.5,
+          "priceList": [
+            10.0,
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "title": "Pizza 3",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza3.jpg",
+          "rating": 4.0,
+          "priceList": [
+            10.0,
+            12.0,
+            14.0
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Menu",
+      "productList": [
+        {
+          "title": "Pizza 4",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza4.jpg",
+          "priceList": [
+            10.0
+          ]
+        },
+        {
+          "title": "Pizza 5",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza5.jpg",
+          "priceList": [
+            10.0
+          ]
+        },
+        {
+          "title": "Pizza 6",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza6.jpg",
+          "priceList": [
+            10.0
+          ]
+        },
+        {
+          "title": "Pizza 7",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza7.jpg",
+          "priceList": [
+            10.0
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Offer",
+      "productList": [
+        {
+          "title": "Pizza 8",
+          "subTitle": "BUY 1 GET1",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza8.jpg",
+          "discount": 20
+        },
+        {
+          "title": "Pizza 9",
+          "subTitle": "BUY 1 GET1",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza9.jpg",
+          "discount": 20
+        },
+        {
+          "title": "Pizza 10",
+          "subTitle": "BUY 1 GET1",
+          "imageUrl": "https://foodish-api.herokuapp.com/images/pizza/pizza10.jpg",
+          "discount": 20
+        }
+      ]
+    }
+  ]
+}
