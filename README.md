@@ -2,6 +2,8 @@
 
 An Android app project featuring single screen food menu written in Kotlin.
 
-![Screenshot#1](screenshots/screen1.jpg)
-![Screenshot#2](screenshots/screen2.jpg)
+![Screenshot#1](screenshots/Screenshot_20221021_015303.png)
+![Screenshot#2](screenshots/Screenshot_20221021_015328.png)
+![Screenshot#2](screenshots/Screenshot_20221021_015340.png)
 
+Credit: surhud004 for images, https://github.com/surhud004

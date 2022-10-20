@@ -2,7 +2,20 @@ package com.android.swapnilk.pizzamenu.sample
 
 import com.android.swapnilk.pizzamenu.sample.models.*
 
-object SampleData {
+class SampleData {
+
+    companion object {
+
+        private const val MAX = 11
+
+    }
+
+    private var _counter: Int = 1
+    private val counter: Int
+        get() {
+            if (_counter == MAX) _counter = 1
+            return _counter++
+        }
 
     private fun generateProductList(max: Int, label: String? = null): List<Product> {
         val mutableListOf = mutableListOf<Product>()
@@ -11,7 +24,7 @@ object SampleData {
                 Product(
                     "Pizza $label $i",
                     "Pizza $label $i",
-                    "https://foodish-api.herokuapp.com/images/pizza/pizza$i.jpg",
+                    "pizza$counter.jpg",
                     4.0f,
                     20.0f,
                     listOf(

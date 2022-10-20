@@ -10,15 +10,12 @@ import com.android.swapnilk.pizzamenu.sample.models.RestaurantMenu
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var mMainLayoutView: MainLayoutView
-
-    private val generateRestaurantMenu: RestaurantMenu = SampleData.generateRestaurantMenu()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        mMainLayoutView = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        val mMainLayoutView: MainLayoutView =
+            DataBindingUtil.setContentView(this, R.layout.activity_main)
         setSupportActionBar(mMainLayoutView.toolbar)
+        val generateRestaurantMenu: RestaurantMenu = SampleData().generateRestaurantMenu()
         mMainLayoutView.header = generateRestaurantMenu.header
         mMainLayoutView.adapter =
             CategoryRecyclerAdapter(layoutInflater, generateRestaurantMenu.categoryList)
